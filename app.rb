@@ -18,7 +18,7 @@ rescue
   exit 1
 end
 
-set :port, 8334
+#set :port, 8334
 set :bind, '0.0.0.0'
 set :erb, :trim => '-'
 
