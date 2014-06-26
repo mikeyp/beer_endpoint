@@ -15,7 +15,7 @@ begin
   session = GoogleDrive.login(GOOGLE_DRIVE_USERNAME, GOOGLE_DRIVE_PASSWORD)
 rescue
   puts "Authenticaiton problem..."
-  exit 1
+#  exit 1
 end
 
 #set :port, 8334
